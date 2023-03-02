@@ -16,5 +16,4 @@ COPY . .
 EXPOSE 3000
 
 ENTRYPOINT ["dumb-init", "--"]
-VOLUME [ "/app/customizer" ]
 CMD ["npm", "run", "start"]
